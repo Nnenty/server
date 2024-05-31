@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.ftl": "fluent",
+        "errno.h": "c",
+        "in.h": "c",
+        "timesize.h": "c",
+        "mongoose.h": "c"
+    }
+}
