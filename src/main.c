@@ -16,7 +16,7 @@ static void fn(struct mg_connection *c, int ev, void *ev_data)
             struct mg_http_serve_opts opts = {
                 .mime_types = "wooow/jpg",
                 .extra_headers = "AA: bb\r\nCC: dd\r\n"};
-            mg_http_serve_file(c, hm, "wooow.jpg", &opts);
+            mg_http_serve_file(c, hm, "../wooow.jpg", &opts);
         }
     }
 }
